@@ -1,0 +1,17 @@
+---
+title: "Title"
+subtitle: "subtitle if necessary"
+author: "Your Name^[[affiliation]"
+date: '`r format(Sys.time(), "%d %m, %Y")`'
+output: 
+  pdf_document:
+    toc: true
+    toc_depth: 2
+    number_sections: true
+    fig_caption: true
+    citation_package: natbib
+bibliography: library.bib
+biblio-style: apa
+fontsize: 12pt
+classoption: a4paper
+---
